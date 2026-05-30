@@ -1,0 +1,19 @@
+# Permissões Linux
+
+Ver permissões:
+
+ls -l
+
+Alterar permissões:
+
+chmod 755 arquivo.sh
+
+Alterar proprietário:
+
+chown usuario arquivo.txt
+
+Conceitos:
+
+* r = leitura
+* w = escrita
+* x = execução
