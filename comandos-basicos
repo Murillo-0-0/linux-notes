@@ -1,0 +1,23 @@
+# Comandos Básicos Linux
+
+## Navegação
+
+pwd
+ls
+cd
+
+
+## Manipulação de arquivos
+
+touch arquivo.txt
+mkdir pasta
+cp origem destino
+mv origem destino
+rm arquivo.txt
+
+## Visualização
+
+cat arquivo.txt
+less arquivo.txt
+head arquivo.txt
+tail arquivo.txt
