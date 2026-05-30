@@ -1,0 +1,7 @@
+# SSH
+
+Conectar a servidor remoto
+
+ssh usuario@ip
+
+scp arquivo.txt usuario@ip:/home/usuario
