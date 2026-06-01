@@ -1,7 +1,28 @@
 # SSH
 
-Conectar a servidor remoto
+SSH (Secure Shell) permite acesso remoto seguro a servidores Linux.
 
+## Conectar
+
+```bash
 ssh usuario@ip
+```
 
+## Copiar arquivos
+
+```bash
 scp arquivo.txt usuario@ip:/home/usuario
+```
+
+## Gerar chave SSH
+
+```bash
+ssh-keygen
+```
+
+## Conceitos Aprendidos
+
+* Acesso remoto
+* Criptografia
+* Chaves públicas e privadas
+* Administração remota de servidores
