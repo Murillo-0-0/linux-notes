@@ -2,22 +2,36 @@
 
 ## Navegação
 
+```bash
 pwd
 ls
+ls -la
 cd
+```
 
+## Manipulação de Arquivos
 
-## Manipulação de arquivos
-
+```bash
 touch arquivo.txt
 mkdir pasta
 cp origem destino
 mv origem destino
 rm arquivo.txt
+rm -r pasta
+```
 
-## Visualização
+## Visualização de Arquivos
 
+```bash
 cat arquivo.txt
 less arquivo.txt
 head arquivo.txt
 tail arquivo.txt
+```
+
+## Conceitos Aprendidos
+
+* Diretório atual
+* Caminhos absolutos e relativos
+* Arquivos e diretórios
+* Navegação pelo terminal
