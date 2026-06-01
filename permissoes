@@ -1,19 +1,39 @@
 # Permissões Linux
 
-Ver permissões:
+## Visualizar permissões
 
+```bash
 ls -l
+```
 
-Alterar permissões:
+Exemplo:
 
-chmod 755 arquivo.sh
+```text
+-rwxr-xr--
+```
 
-Alterar proprietário:
-
-chown usuario arquivo.txt
-
-Conceitos:
+Significado:
 
 * r = leitura
 * w = escrita
 * x = execução
+
+## Alterar permissões
+
+```bash
+chmod 755 arquivo.sh
+chmod 644 documento.txt
+```
+
+## Alterar proprietário
+
+```bash
+chown usuario arquivo.txt
+```
+
+## Conceitos Aprendidos
+
+* Permissões
+* Proprietário
+* Grupo
+* Segurança básica de arquivos
